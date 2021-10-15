@@ -8,7 +8,7 @@ terraform {
 }
 
 variable "company_name" {
-  type = string
+  type        = string
   description = "name of company to lookup s-1 status"
 }
 
